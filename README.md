@@ -1,7 +1,7 @@
-# 📝 Cheatsheet de Comandos de PyCharm
+# 📝 Cheatsheet de Comandos de IntelliJ IDEA
 
 ## 🚀 Navegación Básica
-- **Abrir archivo:** `Ctrl + Shift + N` 
+- **Abrir archivo:** `Ctrl + Shift + N`
 - **Ir a clase:** `Ctrl + N`
 - **Ir a símbolo:** `Ctrl + Shift + Alt + N`
 - **Ir a línea:** `Ctrl + G`
@@ -16,6 +16,8 @@
 - **Mover:** `F6`
 - **Copiar:** `F5`
 - **Eliminar:** `Delete`
+- **Extraer método:** `Ctrl + Alt + M`
+- **Extraer variable:** `Ctrl + Alt + V`
 
 ## 🧩 Code Completion
 - **Autocompletar básico:** `Ctrl + Space`
@@ -26,12 +28,14 @@
 - **Depurar:** `Shift + F9`
 - **Continuar ejecución:** `F9`
 - **Paso a paso:** `F8`
+- **Paso a paso en profundidad:** `Shift + F7`
 
 ## 📦 VCS (Control de Versiones)
 - **Commit cambios:** `Ctrl + K`
 - **Actualizar proyecto:** `Ctrl + T`
 - **Push cambios:** `Ctrl + Shift + K`
 - **Ver historial:** `Alt + 9`
+- **Revertir cambios:** `Ctrl + Alt + Z`
 
 ## 🖥️ Terminal
 - **Abrir terminal:** `Alt + F12`
@@ -51,4 +55,4 @@
 
 ---
 
-¡Utiliza estos comandos para mejorar tu productividad en PyCharm! 🚀
+¡Utiliza estos comandos para mejorar tu productividad en IntelliJ IDEA! 🚀
