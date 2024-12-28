@@ -67,6 +67,21 @@ Para cambiar de branch y ver los diferentes cheatsheets, sigue estos pasos:
   - 📄 `VSC Basics`
   - 📄 `Keyboard Shortcuts`
   - 📄 `Advanced VSC Configs`
+- **Branch: `PyCharm`**
+
+  - 📄 `PyCharm Basics`
+  - 📄 `Keyboard Shortcuts`
+  - 📄 `Advanced PyCharm Configs`
+- **Branch: `IntelliJ`**
+
+  - 📄 `IntelliJ Basics`
+  - 📄 `Keyboard Shortcuts`
+  - 📄 `Advanced IntelliJ Configs`
+- **Branch: `Linux`**
+
+  - 📄 `Linux Basics`
+  - 📄 `Linux Commands`
+  - 📄 `Linux Administration`
 
 ---
 
