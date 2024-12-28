@@ -1,123 +1,123 @@
-# 📝 Cheatsheet de Comandos 🐧 WSL2
+# 📝 Cheatsheet de Comandos 🖥️ Visual Studio Code "VSC"
 
 ### 📦 Comandos Básicos
 
-- **`wsl --install`**: Instala WSL y la distribución predeterminada.
-- **`wsl --list --online`**: Lista las distribuciones disponibles para instalar.
-- **`wsl --install -d <distro>`**: Instala una distribución específica.
-- **`wsl --set-default <distro>`**: Establece la distribución predeterminada.
-- **`wsl --list --verbose`**: Lista las distribuciones instaladas con detalles.
-- **`wsl --terminate <distro>`**: Termina una distribución específica.
-- **`wsl --shutdown`**: Apaga todas las distribuciones de WSL.
-- **`wsl`**: Inicia la distribución predeterminada.
-- **`wsl --update`**: Actualiza WSL a la última versión.
-- **`wsl --export <distro> <archivo>`**: Exporta una distribución a un archivo tar.
-- **`wsl --import <distro> <directorio> <archivo>`**: Importa una distribución desde un archivo tar.
-- **`wsl --set-version <distro> <version>`**: Establece la versión de WSL para una distribución específica.
-- **`wsl --unregister <distro>`**: Desregistra una distribución, eliminándola completamente.
+- **`Ctrl+P`**: Abre el archivo rápidamente.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+N`**: Crea un nuevo archivo.
+- **`Ctrl+S`**: Guarda el archivo actual.
+- **`Ctrl+Shift+S`**: Guarda todos los archivos abiertos.
+- **`Ctrl+W`**: Cierra el archivo actual.
+- **`Ctrl+Shift+W`**: Cierra todas las ventanas abiertas.
+- **`Ctrl+K Ctrl+S`**: Abre el menú de atajos de teclado.
 
-### 🔧 Comandos Avanzados
+### 🔧 Comandos de Edición
 
-- **`wsl --mount <device>`**: Monta un disco físico dentro de WSL 2.
-- **`wsl --unmount <device>`**: Desmonta un disco físico de WSL 2.
-- **`wsl --status`**: Muestra el estado actual de WSL, incluyendo la versión predeterminada y la configuración.
-- **`wsl --set-default-version <version>`**: Establece la versión predeterminada de WSL (1 o 2).
-- **`wsl --help`**: Muestra la ayuda y los comandos disponibles para WSL.
-- **`wsl --exec <command>`**: Ejecuta un comando específico en la distribución predeterminada.
-- **`wsl --cd <directory>`**: Cambia el directorio de trabajo predeterminado para WSL.
-- **`wsl --user <username>`**: Inicia WSL con un usuario específico.
-- **`wsl --import-in-place <distro> <directorio>`**: Importa una distribución en su lugar desde un directorio existente.
-- **`wsl --export-in-place <distro> <directorio>`**: Exporta una distribución en su lugar a un directorio existente.
+- **`Ctrl+X`**: Corta la selección actual.
+- **`Ctrl+C`**: Copia la selección actual.
+- **`Ctrl+V`**: Pega desde el portapapeles.
+- **`Ctrl+Z`**: Deshace la última acción.
+- **`Ctrl+Y`**: Rehace la última acción deshecha.
+- **`Ctrl+D`**: Selecciona la siguiente ocurrencia de la palabra actual.
+- **`Ctrl+L`**: Selecciona la línea actual.
+- **`Ctrl+Shift+L`**: Selecciona todas las ocurrencias de la palabra actual.
+- **`Ctrl+/`**: Comenta o descomenta la línea actual.
+- **`Ctrl+Shift+A`**: Comenta o descomenta el bloque seleccionado.
 
-### 🛠️ Comandos de Diagnóstico
+### 🛠️ Comandos de Navegación
 
-- **`wsl --check`**: Verifica si hay actualizaciones disponibles para WSL.
-- **`wsl --version`**: Muestra la versión actual de WSL instalada.
-- **`wsl --set-default-user <distro> <user>`**: Establece el usuario predeterminado para una distribución específica.
-- **`wsl --status`**: Muestra el estado actual de WSL, incluyendo la versión predeterminada y la configuración.
-- **`wsl --list --verbose`**: Lista las distribuciones instaladas con detalles.
+- **`Ctrl+Tab`**: Cambia entre archivos abiertos.
+- **`Ctrl+Shift+Tab`**: Cambia entre archivos abiertos en orden inverso.
+- **`Ctrl+G`**: Ve a la línea específica.
+- **`Ctrl+Shift+O`**: Ve al símbolo en el archivo.
+- **`Ctrl+T`**: Ve al símbolo en el proyecto.
+- **`F12`**: Ve a la definición de la función o variable.
+- **`Alt+←`**: Navega hacia atrás.
+- **`Alt+→`**: Navega hacia adelante.
+
+### 🛠️ Comandos de Búsqueda
+
+- **`Ctrl+F`**: Abre la búsqueda en el archivo actual.
+- **`Ctrl+H`**: Abre la búsqueda y reemplazo en el archivo actual.
+- **`Ctrl+Shift+F`**: Abre la búsqueda en todo el proyecto.
+- **`Ctrl+Shift+H`**: Abre la búsqueda y reemplazo en todo el proyecto.
 
 ### 📂 Comandos de Gestión de Archivos
 
-- **`wsl --import-in-place <distro> <directorio>`**: Importa una distribución en su lugar desde un directorio existente.
-- **`wsl --export-in-place <distro> <directorio>`**: Exporta una distribución en su lugar a un directorio existente.
-- **`wsl --mount <device>`**: Monta un disco físico dentro de WSL 2.
-- **`wsl --unmount <device>`**: Desmonta un disco físico de WSL 2.
+- **`Ctrl+K Ctrl+O`**: Abre una carpeta.
+- **`Ctrl+K Ctrl+N`**: Abre una nueva ventana.
+- **`Ctrl+K Ctrl+W`**: Cierra la ventana actual.
+- **`Ctrl+K Ctrl+S`**: Abre la configuración de usuario.
+- **`Ctrl+K Ctrl+X`**: Cierra el editor actual.
 
 ### 🌐 Comandos de Red
 
-- **`wsl --network <command>`**: Ejecuta comandos relacionados con la configuración de red en WSL.
-- **`wsl --status`**: Muestra el estado actual de WSL, incluyendo la versión predeterminada y la configuración.
-- **`wsl --shutdown`**: Apaga todas las distribuciones de WSL.
+- **`Ctrl+Shift+X`**: Abre el panel de extensiones.
+- **`Ctrl+Shift+E`**: Abre el panel del explorador.
+- **`Ctrl+Shift+G`**: Abre el panel de control de versiones.
+- **`Ctrl+Shift+D`**: Abre el panel de depuración.
+- **`Ctrl+Shift+U`**: Abre el panel de salida.
 
 ### 🧩 Comandos de Integración
 
-- **`wsl --install --no-launch`**: Instala WSL sin iniciar la distribución predeterminada.
-- **`wsl --install --web-download`**: Instala WSL descargando los archivos necesarios desde la web.
-- **`wsl --exec <command>`**: Ejecuta un comando específico en la distribución predeterminada.
-- **`wsl --cd <directory>`**: Cambia el directorio de trabajo predeterminado para WSL.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+Shift+M`**: Abre el panel de problemas.
+- **`Ctrl+Shift+C`**: Abre una nueva terminal.
+- **`Ctrl+Shift+V`**: Abre la vista previa del Markdown.
+- **`Ctrl+Shift+I`**: Formatea el documento.
 
 ### 📜 Comandos de Registro
 
-- **`wsl --register <distro>`**: Registra una nueva distribución en WSL.
-- **`wsl --unregister <distro>`**: Desregistra una distribución, eliminándola completamente.
-- **`wsl --list --online`**: Lista las distribuciones disponibles para instalar.
-- **`wsl --list --all`**: Lista todas las distribuciones, incluyendo las que están en estado de apagado o terminadas.
+- **`Ctrl+K Ctrl+R`**: Abre el registro de comandos.
+- **`Ctrl+K Ctrl+T`**: Cambia el tema de color.
+- **`Ctrl+K Ctrl+I`**: Muestra la información del símbolo.
 
 ### 🗂️ Comandos de Gestión de Distribuciones
 
-- **`wsl --list`**: Lista todas las distribuciones instaladas.
-- **`wsl --list --quiet`**: Lista las distribuciones instaladas sin detalles adicionales.
-- **`wsl --list --all`**: Lista todas las distribuciones, incluyendo las que están en estado de apagado o terminadas.
-- **`wsl --set-default <distro>`**: Establece la distribución predeterminada.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+Shift+E`**: Abre el panel del explorador.
+- **`Ctrl+Shift+G`**: Abre el panel de control de versiones.
+- **`Ctrl+Shift+D`**: Abre el panel de depuración.
 
 ### 🖥️ Comandos de Sistema
 
-- **`wsl --set-default-user <user>`**: Establece el usuario predeterminado para la distribución predeterminada.
-- **`wsl --set-default-version <version>`**: Establece la versión predeterminada de WSL (1 o 2).
-- **`wsl --shutdown`**: Apaga todas las distribuciones de WSL.
-- **`wsl --terminate <distro>`**: Termina una distribución específica.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+Shift+N`**: Abre una nueva ventana.
+- **`Ctrl+Shift+W`**: Cierra todas las ventanas abiertas.
 
 ### 📊 Comandos de Información
 
-- **`wsl --info`**: Muestra información detallada sobre la configuración y el estado de WSL.
-- **`wsl --status`**: Muestra el estado actual de WSL, incluyendo la versión predeterminada y la configuración.
-- **`wsl --list --verbose`**: Lista las distribuciones instaladas con detalles.
-- **`wsl --version`**: Muestra la versión actual de WSL instalada.
+- **`Ctrl+K Ctrl+I`**: Muestra la información del símbolo.
+- **`Ctrl+Shift+U`**: Abre el panel de salida.
+- **`Ctrl+Shift+M`**: Abre el panel de problemas.
 
 ### 🧹 Comandos de Limpieza
 
-- **`wsl --cleanup`**: Limpia los archivos temporales y las configuraciones obsoletas de WSL.
-- **`wsl --unregister <distro>`**: Desregistra una distribución, eliminándola completamente.
-- **`wsl --shutdown`**: Apaga todas las distribuciones de WSL.
-- **`wsl --terminate <distro>`**: Termina una distribución específica.
+- **`Ctrl+K Ctrl+X`**: Cierra el editor actual.
+- **`Ctrl+K Ctrl+W`**: Cierra la ventana actual.
+- **`Ctrl+Shift+W`**: Cierra todas las ventanas abiertas.
 
 ### 🛡️ Comandos de Seguridad
 
-- **`wsl --security`**: Muestra y configura las opciones de seguridad para WSL.
-- **`wsl --update`**: Actualiza WSL a la última versión.
-- **`wsl --check`**: Verifica si hay actualizaciones disponibles para WSL.
-- **`wsl --status`**: Muestra el estado actual de WSL, incluyendo la versión predeterminada y la configuración.
+- **`Ctrl+K Ctrl+S`**: Abre la configuración de usuario.
+- **`Ctrl+K Ctrl+R`**: Abre el registro de comandos.
+- **`Ctrl+K Ctrl+T`**: Cambia el tema de color.
 
 ### 🧩 Comandos de Extensiones
 
-- **`wsl --extension <command>`**: Ejecuta comandos relacionados con las extensiones de WSL.
-- **`wsl --install --no-launch`**: Instala WSL sin iniciar la distribución predeterminada.
-- **`wsl --install --web-download`**: Instala WSL descargando los archivos necesarios desde la web.
-- **`wsl --exec <command>`**: Ejecuta un comando específico en la distribución predeterminada.
+- **`Ctrl+Shift+X`**: Abre el panel de extensiones.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+Shift+E`**: Abre el panel del explorador.
 
 ### 📦 Comandos de Paquetes
 
-- **`wsl --package <command>`**: Ejecuta comandos relacionados con la gestión de paquetes en WSL.
-- **`wsl --list --online`**: Lista las distribuciones disponibles para instalar.
-- **`wsl --list --all`**: Lista todas las distribuciones, incluyendo las que están en estado de apagado o terminadas.
-- **`wsl --list --verbose`**: Lista las distribuciones instaladas con detalles.
+- **`Ctrl+Shift+X`**: Abre el panel de extensiones.
+- **`Ctrl+Shift+P`**: Abre la paleta de comandos.
+- **`Ctrl+Shift+E`**: Abre el panel del explorador.
 
 ### 🛠️ Comandos de Configuración
 
-- **`wsl --config <command>`**: Ejecuta comandos relacionados con la configuración de WSL.
-- **`wsl --set-default-version <version>`**: Establece la versión predeterminada de WSL (1 o 2).
-- **`wsl --set-default <distro>`**: Establece la distribución predeterminada.
-- **`wsl --set-default-user <user>`**: Establece el usuario predeterminado para la distribución predeterminada.
-- **`wsl --shutdown`**: Apaga todas las distribuciones de WSL.
-- **`wsl --terminate <distro>`**: Termina una distribución específica.
+- **`Ctrl+K Ctrl+S`**: Abre la configuración de usuario.
+- **`Ctrl+K Ctrl+T`**: Cambia el tema de color.
+- **`Ctrl+K Ctrl+I`**: Muestra la información del símbolo.
+```
