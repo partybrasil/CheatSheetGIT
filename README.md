@@ -1,67 +1,54 @@
-# 📝 Cheatsheet de Comandos 💻 Terminal
+# 📝 Cheatsheet de Comandos de PyCharm
 
-### 📦 Comandos Básicos
+## 🚀 Navegación Básica
+- **Abrir archivo:** `Ctrl + Shift + N` 
+- **Ir a clase:** `Ctrl + N`
+- **Ir a símbolo:** `Ctrl + Shift + Alt + N`
+- **Ir a línea:** `Ctrl + G`
 
-- **`alias <nombre>='<comando>'`**: Crea un alias para un comando.
-- **`cat <archivo>`**: Muestra el contenido de un archivo.
-- **`cd <directorio>`**: Cambia al directorio especificado.
-- **`chown <usuario>:<grupo> <archivo>`**: Cambia el propietario y grupo de un archivo.
-- **`chmod <permisos> <archivo>`**: Cambia los permisos de un archivo.
-- **`cp <origen> <destino>`**: Copia un archivo o directorio.
-- **`curl <url>`**: Realiza una solicitud a una URL.
-- **`df -h`**: Muestra el uso del espacio en disco de forma legible.
-- **`du -h <directorio>`**: Muestra el uso del espacio en disco de un directorio.
-- **`find <directorio> -name <nombre>`**: Busca archivos y directorios por nombre.
-- **`grep <patrón> <archivo>`**: Busca un patrón en un archivo.
-- **`history`**: Muestra el historial de comandos ejecutados.
-- **`htop`**: Muestra una vista interactiva de los procesos en ejecución.
-- **`kill <pid>`**: Termina un proceso por su ID.
-- **`ls`**: Lista los archivos y directorios en el directorio actual.
-- **`mkdir <directorio>`**: Crea un nuevo directorio.
-- **`mv <origen> <destino>`**: Mueve o renombra un archivo o directorio.
-- **`nano <archivo>`**: Abre un archivo en el editor de texto Nano.
-- **`pwd`**: Muestra la ruta del directorio actual.
-- **`ps aux`**: Muestra información sobre los procesos en ejecución.
-- **`rm <archivo>`**: Elimina un archivo.
-- **`rm -r <directorio>`**: Elimina un directorio y su contenido de forma recursiva.
-- **`scp <archivo> <usuario>@<host>:<destino>`**: Copia archivos a un host remoto vía SCP.
-- **`ssh <usuario>@<host>`**: Conecta a un host remoto vía SSH.
-- **`tar -czvf <archivo.tar.gz> <directorio>`**: Crea un archivo tar comprimido con gzip.
-- **`tar -xzvf <archivo.tar.gz>`**: Extrae un archivo tar comprimido con gzip.
-- **`top`**: Muestra los procesos en ejecución en tiempo real.
-- **`touch <archivo>`**: Crea un nuevo archivo vacío.
-- **`unalias <nombre>`**: Elimina un alias.
-- **`unzip <archivo.zip>`**: Extrae un archivo zip.
-- **`vim <archivo>`**: Abre un archivo en el editor de texto Vim.
-- **`wget <url>`**: Descarga archivos desde una URL.
-- **`zip -r <archivo.zip> <directorio>`**: Crea un archivo zip de un directorio.
-- **`assoc`**: Muestra o cambia las asociaciones de archivos.
-- **`attrib <archivo>`**: Muestra o cambia los atributos de un archivo.
-- **`cd <directorio>`**: Cambia al directorio especificado.
-- **`chkdsk`**: Verifica el disco y muestra un informe de estado.
-- **`cls`**: Limpia la pantalla de la terminal.
-- **`copy <origen> <destino>`**: Copia archivos de un lugar a otro.
-- **`del <archivo>`**: Elimina un archivo.
-- **`diskpart`**: Administra particiones de disco.
-- **`dir`**: Lista los archivos y directorios en el directorio actual.
-- **`echo <mensaje>`**: Muestra un mensaje en la pantalla.
-- **`exit`**: Cierra la ventana de la terminal.
-- **`fc <archivo1> <archivo2>`**: Compara dos archivos y muestra las diferencias.
-- **`findstr <patrón> <archivo>`**: Busca un patrón en un archivo.
-- **`format <unidad>`**: Formatea una unidad de disco.
-- **`hostname`**: Muestra el nombre del host del sistema.
-- **`ipconfig`**: Muestra la configuración de red del sistema.
-- **`move <origen> <destino>`**: Mueve o renombra archivos.
-- **`netstat`**: Muestra estadísticas de red y conexiones.
-- **`pause`**: Pausa la ejecución de un script y muestra un mensaje.
-- **`ping <host>`**: Envía paquetes de prueba a un host.
-- **`rmdir <directorio>`**: Elimina un directorio vacío.
-- **`restart /r /t <segundos>`**: Reinicia el sistema después de un tiempo especificado.
-- **`set`**: Muestra, establece o elimina variables de entorno.
-- **`shutdown /s /t <segundos>`**: Apaga el sistema después de un tiempo especificado.
-- **`systeminfo`**: Muestra información del sistema.
-- **`taskkill /PID <pid>`**: Termina un proceso por su ID.
-- **`tasklist`**: Muestra una lista de los procesos en ejecución.
-- **`tree`**: Muestra una estructura de directorios y archivos en forma de árbol.
-- **`type <archivo>`**: Muestra el contenido de un archivo.
-- **`whoami`**: Muestra el nombre del usuario actual.
+## 🔍 Búsqueda
+- **Buscar en el proyecto:** `Ctrl + Shift + F`
+- **Buscar y reemplazar en el proyecto:** `Ctrl + Shift + R`
+- **Buscar acción:** `Ctrl + Shift + A`
+
+## 🛠️ Refactorización
+- **Renombrar:** `Shift + F6`
+- **Mover:** `F6`
+- **Copiar:** `F5`
+- **Eliminar:** `Delete`
+
+## 🧩 Code Completion
+- **Autocompletar básico:** `Ctrl + Space`
+- **Autocompletar inteligente:** `Ctrl + Shift + Space`
+
+## 🐞 Depuración
+- **Añadir punto de interrupción:** `Ctrl + F8`
+- **Depurar:** `Shift + F9`
+- **Continuar ejecución:** `F9`
+- **Paso a paso:** `F8`
+
+## 📦 VCS (Control de Versiones)
+- **Commit cambios:** `Ctrl + K`
+- **Actualizar proyecto:** `Ctrl + T`
+- **Push cambios:** `Ctrl + Shift + K`
+- **Ver historial:** `Alt + 9`
+
+## 🖥️ Terminal
+- **Abrir terminal:** `Alt + F12`
+
+## 📚 Documentación
+- **Ver documentación rápida:** `Ctrl + Q`
+
+## 🎨 Formateo de Código
+- **Formatear código:** `Ctrl + Alt + L`
+- **Optimizar importaciones:** `Ctrl + Alt + O`
+
+## 🔄 Generación de Código
+- **Generar código:** `Alt + Insert`
+
+## 🔧 Configuración
+- **Preferencias:** `Ctrl + Alt + S`
+
+---
+
+¡Utiliza estos comandos para mejorar tu productividad en PyCharm! 🚀
