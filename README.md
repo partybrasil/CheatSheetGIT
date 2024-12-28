@@ -62,6 +62,11 @@ Para cambiar de branch y ver los diferentes cheatsheets, sigue estos pasos:
   - 📄 `WinGet Basics`
   - 📄 `Package Management`
   - 📄 `Advanced WinGet Commands`
+- **Branch: `VSC Visual Studio Code`**
+
+  - 📄 `VSC Basics`
+  - 📄 `Keyboard Shortcuts`
+  - 📄 `Advanced VSC Configs`
 
 ---
 
