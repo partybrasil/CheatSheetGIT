@@ -19,8 +19,8 @@ Para cambiar de branch y ver los diferentes cheatsheets, sigue estos pasos:
 1. **Clona el repositorio** (si aún no lo has hecho):
 
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/msalemad/CheatSheetGIT.git
+   cd CheatSheetGIT
    ```
 2. **Lista las ramas disponibles**:
 
