@@ -82,6 +82,11 @@ Para cambiar de branch y ver los diferentes cheatsheets, sigue estos pasos:
   - 📄 `Linux Basics`
   - 📄 `Linux Commands`
   - 📄 `Linux Administration`
+- **Branch: `Termux`**
+
+  - 📄 `Termux Basics`
+  - 📄 `Termux Packages`
+  - 📄 `Advanced Termux Usage`
 
 ---
 
