@@ -37,57 +37,75 @@ Para cambiar de branch y ver los diferentes cheatsheets, sigue estos pasos:
 
 ### 📜 Estructura de Branches y Contenidos
 
-- **Branch: `GIT+GH-CLI`**
+Hemos organizado nuestros cheatsheets en diferentes ramas para facilitar el acceso y la navegación. A continuación, encontrarás una lista de las ramas disponibles y los contenidos que cada una ofrece:
 
-  - 📄 `Git Basics`
-  - 📄 `GitHub CLI Commands`
-  - 📄 `Branching and Merging`
-- **Branch: `Docker`**
+- **Branch: `GIT+GH-CLI`** 🐙
 
-  - 📄 `Docker Basics`
-  - 📄 `Docker Compose`
-  - 📄 `Docker Swarm`
-- **Branch: `WSL2`**
+  - 📄 **Git Basics**: Conceptos fundamentales de Git.
+  - 📄 **GitHub CLI Commands**: Comandos esenciales de la CLI de GitHub.
+  - 📄 **Branching and Merging**: Estrategias de ramificación y fusión.
 
-  - 📄 `WSL2 Setup`
-  - 📄 `WSL2 Commands`
-  - 📄 `Integration with Windows`
-- **Branch: `Terminal`**
+- **Branch: `Docker`** 🐳
 
-  - 📄 `Basic Terminal Commands`
-  - 📄 `Advanced Shell Scripting`
-  - 📄 `Terminal Customization`
-- **Branch: `WinGet`**
+  - 📄 **Docker Basics**: Introducción a Docker.
+  - 📄 **Docker Compose**: Uso de Docker Compose.
+  - 📄 **Docker Swarm**: Orquestación con Docker Swarm.
 
-  - 📄 `WinGet Basics`
-  - 📄 `Package Management`
-  - 📄 `Advanced WinGet Commands`
-- **Branch: `VSC Visual Studio Code`**
+- **Branch: `WSL2`** 🐧
 
-  - 📄 `VSC Basics`
-  - 📄 `Keyboard Shortcuts`
-  - 📄 `Advanced VSC Configs`
-- **Branch: `PyCharm`**
+  - 📄 **WSL2 Setup**: Configuración inicial de WSL2.
+  - 📄 **WSL2 Commands**: Comandos útiles de WSL2.
+  - 📄 **Integration with Windows**: Integración de WSL2 con Windows.
 
-  - 📄 `PyCharm Basics`
-  - 📄 `Keyboard Shortcuts`
-  - 📄 `Advanced PyCharm Configs`
-- **Branch: `IntelliJ`**
+- **Branch: `Terminal`** 💻
 
-  - 📄 `IntelliJ Basics`
-  - 📄 `Keyboard Shortcuts`
-  - 📄 `Advanced IntelliJ Configs`
-- **Branch: `Linux`**
+  - 📄 **Basic Terminal Commands**: Comandos básicos de terminal.
+  - 📄 **Advanced Shell Scripting**: Scripting avanzado en shell.
+  - 📄 **Terminal Customization**: Personalización del terminal.
 
-  - 📄 `Linux Basics`
-  - 📄 `Linux Commands`
-  - 📄 `Linux Administration`
-- **Branch: `Termux`**
+- **Branch: `WinGet`** 📦
 
-  - 📄 `Termux Basics`
-  - 📄 `Termux Packages`
-  - 📄 `Advanced Termux Usage`
+  - 📄 **WinGet Basics**: Fundamentos de WinGet.
+  - 📄 **Package Management**: Gestión de paquetes con WinGet.
+  - 📄 **Advanced WinGet Commands**: Comandos avanzados de WinGet.
 
+- **Branch: `VSC Visual Studio Code`** 🖥️
+
+  - 📄 **VSC Basics**: Conceptos básicos de Visual Studio Code.
+  - 📄 **Keyboard Shortcuts**: Atajos de teclado esenciales.
+  - 📄 **Advanced VSC Configs**: Configuraciones avanzadas de VSC.
+
+- **Branch: `PyCharm`** 🐍
+
+  - 📄 **PyCharm Basics**: Introducción a PyCharm.
+  - 📄 **Keyboard Shortcuts**: Atajos de teclado en PyCharm.
+  - 📄 **Advanced PyCharm Configs**: Configuraciones avanzadas de PyCharm.
+
+- **Branch: `IntelliJ`** 💡
+
+  - 📄 **IntelliJ Basics**: Fundamentos de IntelliJ.
+  - 📄 **Keyboard Shortcuts**: Atajos de teclado en IntelliJ.
+  - 📄 **Advanced IntelliJ Configs**: Configuraciones avanzadas de IntelliJ.
+
+- **Branch: `Linux`** 🐧
+
+  - 📄 **Linux Basics**: Conceptos básicos de Linux.
+  - 📄 **Linux Commands**: Comandos esenciales de Linux.
+  - 📄 **Linux Administration**: Administración avanzada de Linux.
+
+- **Branch: `Termux`** 📱
+
+  - 📄 **Termux Basics**: Introducción a Termux.
+  - 📄 **Termux Packages**: Gestión de paquetes en Termux.
+  - 📄 **Advanced Termux Usage**: Uso avanzado de Termux.
+
+- **Branch: `PowerShell`** ⚡
+
+  - 📄 **PowerShell Basics**: Fundamentos de PowerShell.
+  - 📄 **PowerShell Scripting**: Scripting en PowerShell.
+  - 📄 **Advanced PowerShell**: Uso avanzado de PowerShell.
+
+Explora cada rama para encontrar el cheatsheet que necesitas y mejora tu flujo de trabajo con nuestras guías detalladas y fáciles de seguir. ¡Feliz aprendizaje! 🚀
 ---
 
 ## 🛠 Contribuir
@@ -135,8 +153,17 @@ Si deseas contribuir a nuestros cheatsheets, por favor sigue estos pasos:
 
 ## 📬 Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de [nuestro email](mailto:contacto@ejemplo.com).
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de [nuestro email](mailto:contacto@ejemplo.com). También puedes seguirnos en nuestras redes sociales para estar al tanto de las últimas actualizaciones y novedades:
+
+- [Twitter](https://twitter.com/ejemplo)
+- [Facebook](https://facebook.com/ejemplo)
+- [LinkedIn](https://linkedin.com/company/ejemplo)
 
 ---
 
 ¡Gracias por usar nuestros cheatsheets! 🚀
+
+Esperamos que encuentres útiles nuestras guías y que te ayuden en tus proyectos. Si tienes alguna recomendación o deseas ver un nuevo cheatsheet sobre una herramienta específica, háznoslo saber. ¡Estamos aquí para ayudarte!
+
+---
+
